@@ -1,0 +1,63 @@
+export const BUILDINGS_DATA = [
+  {
+    id: 'block-a',
+    code: 'A',
+    name: 'Block A',
+    subtitle: 'The Azure Tower',
+    position: [-38, 0, -10],
+    rotation: [0, 0.45, 0],
+    targetPosition: [-38, 26, -10],
+    cameraOffset: [-28, 32, 38],
+    floorsCount: 15,
+    apartmentsPerFloor: 3,
+    totalApartments: 45,
+    facing: 'East & Central Landscaped Garden',
+    description: 'Positioned on the west wing with morning sunrise vistas over the central lawn and jogging corridor.',
+    accentColor: '#c59b6d', // warm bronze
+  },
+  {
+    id: 'block-b',
+    code: 'B',
+    name: 'Block B',
+    subtitle: 'The Bellagio Tower',
+    position: [0, 0, -42],
+    rotation: [0, 0, 0],
+    targetPosition: [0, 26, -42],
+    cameraOffset: [0, 32, 48],
+    floorsCount: 15,
+    apartmentsPerFloor: 3,
+    totalApartments: 45,
+    facing: 'South & Panoramic Central Boulevard',
+    description: 'The premier central crown tower offering uninterrupted direct frontage onto the amphitheatre and clubhouse.',
+    accentColor: '#b08354', // deep gold bronze
+  },
+  {
+    id: 'block-c',
+    code: 'C',
+    name: 'Block C',
+    subtitle: 'The Celestia Tower',
+    position: [38, 0, -10],
+    rotation: [0, -0.45, 0],
+    targetPosition: [38, 26, -10],
+    cameraOffset: [28, 32, 38],
+    floorsCount: 15,
+    apartmentsPerFloor: 3,
+    totalApartments: 45,
+    facing: 'West & Sunset Sports Arena',
+    description: 'Perched on the east wing commanding serene views across the clubhouse pool and tennis court.',
+    accentColor: '#9a7042', // rich copper
+  },
+];
+
+export const BUILDING_SPECS = {
+  totalTowers: 3,
+  residentialFloorsPerTower: 15,
+  apartmentsPerFloor: 3,
+  totalApartments: 135,
+  configuration: '3 BHK Premium & Luxury',
+  floorHeight: 3.2,
+  groundFloorHeight: 4.2,
+  superBuiltUpAreaRange: '1,845 — 1,980 sq.ft.',
+  carpetAreaRange: '1,320 — 1,410 sq.ft.',
+  landscapeCoverage: '78% Open Green Space',
+};
